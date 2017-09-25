@@ -2,7 +2,7 @@
 Description=I-Tee Virtualbox API Service
 
 [Service]
-ExecStart=/usr/local/nvm/versions/node/v8.4.0/bin/babel-node /etc/i-tee-virtualbox/index.js /etc/i-tee-virtualbox/config.json
+ExecStart=/usr/local/nvm/versions/node/v8.4.0/bin/babel-node /opt/i-tee-virtualbox/index.js /opt/i-tee-virtualbox/config.json
 
 # Required on some systems
 WorkingDirectory=/opt/i-tee-virtualbox
